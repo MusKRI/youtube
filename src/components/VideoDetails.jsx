@@ -90,7 +90,7 @@ const VideoDetails = ({ video, id }) => {
               </div>
             </div>
 
-            <div className="mt-4 border">
+            <div className="mt-4">
               <div
                 className={`${
                   descShow ? "" : "cursor-pointer"
