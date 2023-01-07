@@ -90,7 +90,7 @@ const VideoDetails = ({ video, id }) => {
               </div>
             </div>
 
-            <div className="mt-4">
+            <div className="mt-4 border">
               <div
                 className={`${
                   descShow ? "" : "cursor-pointer"
@@ -107,7 +107,7 @@ const VideoDetails = ({ video, id }) => {
                       {video?.publishedDate}
                     </span>
                   </div>
-                  <div className="mt-1 flex flex-col items-start">
+                  <div className="mt-1 flex flex-col items-start overflow-hidden">
                     <span
                       className={`${
                         descShow ? "" : "line-clamp-1"
