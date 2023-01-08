@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useQuery } from "react-query";
 
-const API_KEY = "f3100a9c68mshf89c46d3364e3a3p1f2e01jsn0e9e8048ebfb";
+const API_KEY = "bd03b592d5mshdfc52d92a8d6053p1d9157jsn05b9d8ebc613";
 
 const BASE_URL = "https://youtube138.p.rapidapi.com";
 
